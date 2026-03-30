@@ -48,6 +48,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:3000",
+  "https://job-board-two-zeta.vercel.app",
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
@@ -59,7 +60,7 @@ app.use(
         callback(null, true);
       } else {
         console.log("CORS blocked origin:", origin);
-        callback(null, true); // Allow all in development
+        callback(null, true);
       }
     },
     credentials: true,
@@ -471,7 +472,7 @@ app.patch("/application/:applicationId", verifyToken, async (req, res) => {
 
 // ==================== AUTH APIs ====================
 
-// Create JWT token
+// Create JWT token - FIXED COOKIE SETTINGS
 app.post("/jwt", async (req, res) => {
   try {
     await connectDB();
@@ -489,12 +490,14 @@ app.post("/jwt", async (req, res) => {
       { expiresIn: "7d" }
     );
 
+    // FIXED: Cookie settings for cross-site (Vercel)
     res
       .cookie("token", jwtToken, {
         httpOnly: true,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
+        secure: true,        // MUST be true for HTTPS (Vercel)
+        sameSite: "none",    // MUST be "none" for cross-site requests
         maxAge: 7 * 24 * 60 * 60 * 1000,
+        path: "/"
       })
       .status(200)
       .json({
@@ -590,13 +593,14 @@ app.get("/users/:uid", async (req, res) => {
   }
 });
 
-// Logout
+// Logout - FIXED COOKIE CLEAR
 app.post("/logout", (req, res) => {
   res
     .clearCookie("token", {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
+      secure: true,
+      sameSite: "none",
+      path: "/"
     })
     .status(200)
     .json({ success: true, message: "Logged out successfully" });
