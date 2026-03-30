@@ -1,0 +1,202 @@
+[
+  {
+    "job_Id": 1,
+    "companyName": "Grameenphone",
+    "location": "Dhaka",
+    "jobTitle": "Frontend Developer",
+    "jobDescription": "Develop responsive user interfaces for telecom platforms.",
+    "salaryPerHour": 25,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://i.postimg.cc/D030KHGk/Untitled.jpg"
+  },
+  {
+    "job_Id": 2,
+    "companyName": "Robi Axiata",
+    "location": "Dhaka",
+    "jobTitle": "Backend Developer",
+    "jobDescription": "Build scalable APIs and services.",
+    "salaryPerHour": 22,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://i.postimg.cc/VvsyMFQF/Untitled.png"
+  },
+  {
+    "job_Id": 3,
+    "companyName": "Banglalink",
+    "location": "Dhaka",
+    "jobTitle": "UI Designer",
+    "jobDescription": "Design modern telecom app interfaces.",
+    "salaryPerHour": 20,
+    "jobType": "Contract",
+    "companyLogoUrl": "https://i.postimg.cc/0jy3r2DX/banglalink.png"
+  },
+  {
+    "job_Id": 4,
+    "companyName": "Beximco Group",
+    "location": "Dhaka",
+    "jobTitle": "Software Engineer",
+    "jobDescription": "Maintain enterprise software systems.",
+    "salaryPerHour": 24,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://i.postimg.cc/QMZy1qcJ/beximco.jpg"
+  },
+  {
+    "job_Id": 5,
+    "companyName": "Square Group",
+    "location": "Dhaka",
+    "jobTitle": "Database Administrator",
+    "jobDescription": "Manage company databases and security.",
+    "salaryPerHour": 23,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://i.postimg.cc/zfk0WYJt/square.png"
+  },
+  {
+    "job_Id": 6,
+    "companyName": "Walton",
+    "location": "Gazipur",
+    "jobTitle": "Embedded Systems Engineer",
+    "jobDescription": "Develop firmware for electronics products.",
+    "salaryPerHour": 26,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://i.postimg.cc/25CxC94W/walton.jpg"
+  },
+  {
+    "job_Id": 7,
+    "companyName": "BRAC",
+    "location": "Dhaka",
+    "jobTitle": "IT Officer",
+    "jobDescription": "Support IT infrastructure and users.",
+    "salaryPerHour": 18,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://i.postimg.cc/CMR9ydMf/brac.png"
+  },
+  {
+    "job_Id": 8,
+    "companyName": "Pathao",
+    "location": "Dhaka",
+    "jobTitle": "Mobile App Developer",
+    "jobDescription": "Build and maintain ride-sharing apps.",
+    "salaryPerHour": 28,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://i.postimg.cc/N0NCSvWD/pathao.png"
+  },
+  {
+    "job_Id": 9,
+    "companyName": "Daraz Bangladesh",
+    "location": "Dhaka",
+    "jobTitle": "QA Engineer",
+    "jobDescription": "Test e-commerce platform features.",
+    "salaryPerHour": 21,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://i.postimg.cc/VLyG3RHW/daraz.png"
+  },
+  {
+    "job_Id": 10,
+    "companyName": "bKash",
+    "location": "Dhaka",
+    "jobTitle": "Security Engineer",
+    "jobDescription": "Ensure fintech system security.",
+    "salaryPerHour": 30,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/bkash.com"
+  },
+  {
+    "job_Id": 11,
+    "companyName": "Nagad",
+    "location": "Dhaka",
+    "jobTitle": "DevOps Engineer",
+    "jobDescription": "Maintain CI/CD pipelines.",
+    "salaryPerHour": 27,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/nagad.com.bd"
+  },
+  {
+    "job_Id": 12,
+    "companyName": "PRAN-RFL Group",
+    "location": "Dhaka",
+    "jobTitle": "System Analyst",
+    "jobDescription": "Analyze and improve IT systems.",
+    "salaryPerHour": 22,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/pranfoods.net"
+  },
+  {
+    "job_Id": 13,
+    "companyName": "ACI Limited",
+    "location": "Dhaka",
+    "jobTitle": "Network Engineer",
+    "jobDescription": "Manage corporate network infrastructure.",
+    "salaryPerHour": 23,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/aci-bd.com"
+  },
+  {
+    "job_Id": 14,
+    "companyName": "City Bank",
+    "location": "Dhaka",
+    "jobTitle": "Software Tester",
+    "jobDescription": "Test banking software systems.",
+    "salaryPerHour": 20,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/thecitybank.com"
+  },
+  {
+    "job_Id": 15,
+    "companyName": "Dutch-Bangla Bank",
+    "location": "Dhaka",
+    "jobTitle": "IT Support Engineer",
+    "jobDescription": "Provide technical support for staff.",
+    "salaryPerHour": 19,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/dutchbanglabank.com"
+  },
+  {
+    "job_Id": 16,
+    "companyName": "IFIC Bank",
+    "location": "Dhaka",
+    "jobTitle": "Web Developer",
+    "jobDescription": "Develop and maintain bank websites.",
+    "salaryPerHour": 21,
+    "jobType": "Contract",
+    "companyLogoUrl": "https://logo.clearbit.com/ificbank.com.bd"
+  },
+  {
+    "job_Id": 17,
+    "companyName": "Singer Bangladesh",
+    "location": "Dhaka",
+    "jobTitle": "ERP Specialist",
+    "jobDescription": "Manage ERP system operations.",
+    "salaryPerHour": 24,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/singerbd.com"
+  },
+  {
+    "job_Id": 18,
+    "companyName": "Minister Hi-Tech Park",
+    "location": "Dhaka",
+    "jobTitle": "Hardware Engineer",
+    "jobDescription": "Design and test hardware components.",
+    "salaryPerHour": 26,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/ministerbd.com"
+  },
+  {
+    "job_Id": 19,
+    "companyName": "Akij Group",
+    "location": "Dhaka",
+    "jobTitle": "IT Executive",
+    "jobDescription": "Oversee IT operations.",
+    "salaryPerHour": 20,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/akij.net"
+  },
+  {
+    "job_Id": 20,
+    "companyName": "Jamuna Group",
+    "location": "Dhaka",
+    "jobTitle": "Cloud Engineer",
+    "jobDescription": "Manage cloud infrastructure services.",
+    "salaryPerHour": 29,
+    "jobType": "Full Time",
+    "companyLogoUrl": "https://logo.clearbit.com/jamunagroup.com.bd"
+  }
+]
